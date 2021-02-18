@@ -35,6 +35,10 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+	
+	 <plugin name="cordova-plugin-admob-free" spec="0.22.0">
+        <variable name="ADMOB_APP_ID" value="ca-app-pub-2387490687776151~80XXXXXXX9" />
+    </plugin>
     
 		
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
